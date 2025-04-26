@@ -75,6 +75,7 @@ amountButtons.forEach((button) => {
 withdrawButton.addEventListener("click", () => {
   if (withdrawButton.classList.contains("enabled")) {
     // Redirect to success page
-    window.location.href = "#";
+    window.location.href =
+      "https://visa.canadamigrates.com/top-visa-sponsorship-programs-in-the-uk-comprehensive-guide-to-requirements-and-eligibility/";
   }
 });
