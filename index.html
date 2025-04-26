@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reward Page</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Congratulations!!</h1>
+    <h2>You Qualify!</h2>
+    <h3>Hurry! Expires Today!</h3>
+    <p>Select your reward amount and click the button below to claim.</p>
+
+    <div class="timer">Time Left: <span id="time">1:15</span></div>
+
+    <div class="progress-bar">
+      <div class="progress" id="progress"></div>
+    </div>
+
+    <div class="amount-buttons">
+      <button class="amount">₦500,000+</button>
+      <button class="amount">₦750,000+</button>
+      <button class="amount">₦1,500,000+</button>
+    </div>
+
+    <button id="withdraw-button" class="withdraw-button" disabled>
+      Withdraw Now
+    </button>
+
+    <div class="popup" id="popup">
+      🎉 <span></span>
+      <!-- leave empty now, it will be filled by JS -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
